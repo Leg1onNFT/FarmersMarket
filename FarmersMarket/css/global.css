@@ -17,6 +17,22 @@
 	font-family: Roboto, sans-serif;
 
 	background-color: #ECEBE1;
+
+.global__body{
+	margin: 0;
+	padding: 0;
+
+	display: grid;
+
+	grid-template-areas: "header nav"
+						 "aside  main"
+						 "footer footer";
+	grid-template-columns: auto 1fr;
+	grid-template-rows: auto 1fr auto;
+
+	font-family: Roboto, sans-serif;
+
+	background-color: #ECEBE1;
 }
 
 /* -------------------- header -------------------- */
